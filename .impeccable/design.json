@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-30T22:45:00Z",
+  "title": "Design System: The Dial",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Lamp Amber",
+        "canonical": "#ffb45c",
+        "tonalRamp": ["oklch(15% 0.06 70)", "oklch(26% 0.08 70)", "oklch(38% 0.1 70)", "oklch(50% 0.11 70)", "oklch(62% 0.12 70)", "oklch(74% 0.13 70)", "oklch(85% 0.11 70)", "oklch(95% 0.05 70)"]
+      },
+      "amber-hot": {
+        "role": "primary",
+        "displayName": "Hot Filament",
+        "canonical": "#ffd9a3",
+        "tonalRamp": ["oklch(15% 0.04 78)", "oklch(27% 0.06 78)", "oklch(39% 0.07 78)", "oklch(51% 0.08 78)", "oklch(63% 0.09 78)", "oklch(75% 0.09 78)", "oklch(87% 0.08 78)", "oklch(95% 0.04 78)"]
+      },
+      "lamp-red": {
+        "role": "secondary",
+        "displayName": "Signal Red",
+        "canonical": "#e0503a",
+        "tonalRamp": ["oklch(15% 0.07 30)", "oklch(26% 0.1 30)", "oklch(37% 0.13 30)", "oklch(48% 0.15 30)", "oklch(59% 0.16 30)", "oklch(70% 0.13 30)", "oklch(83% 0.09 30)", "oklch(95% 0.03 30)"]
+      },
+      "silk": {
+        "role": "neutral",
+        "displayName": "Silkscreen Cream",
+        "canonical": "#efe8d8",
+        "tonalRamp": ["oklch(15% 0.01 95)", "oklch(27% 0.015 95)", "oklch(39% 0.02 95)", "oklch(51% 0.02 95)", "oklch(63% 0.02 95)", "oklch(75% 0.02 95)", "oklch(87% 0.02 95)", "oklch(95% 0.015 95)"]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Charcoal Panel",
+        "canonical": "#26272c",
+        "tonalRamp": ["oklch(15% 0.008 265)", "oklch(25% 0.008 265)", "oklch(35% 0.008 265)", "oklch(46% 0.008 265)", "oklch(57% 0.008 265)", "oklch(69% 0.007 265)", "oklch(82% 0.006 265)", "oklch(95% 0.004 265)"]
+      },
+      "alum": {
+        "role": "neutral",
+        "displayName": "Data-Plate Aluminum",
+        "canonical": "#a9a698",
+        "tonalRamp": ["oklch(15% 0.008 105)", "oklch(26% 0.01 105)", "oklch(38% 0.012 105)", "oklch(50% 0.014 105)", "oklch(62% 0.015 105)", "oklch(73% 0.015 105)", "oklch(85% 0.013 105)", "oklch(95% 0.008 105)"]
+      },
+      "meter-face": {
+        "role": "neutral",
+        "displayName": "Meter Face / Card Stock",
+        "canonical": "#f2e9d4",
+        "tonalRamp": ["oklch(15% 0.012 90)", "oklch(27% 0.016 90)", "oklch(39% 0.02 90)", "oklch(51% 0.024 90)", "oklch(63% 0.026 90)", "oklch(75% 0.026 90)", "oklch(87% 0.025 90)", "oklch(95% 0.02 90)"]
+      },
+      "meter-red": {
+        "role": "secondary",
+        "displayName": "Meter Red / Madder Ink",
+        "canonical": "#b13527",
+        "tonalRamp": ["oklch(15% 0.06 32)", "oklch(25% 0.09 32)", "oklch(35% 0.12 32)", "oklch(46% 0.14 32)", "oklch(57% 0.14 32)", "oklch(69% 0.11 32)", "oklch(82% 0.07 32)", "oklch(94% 0.03 32)"]
+      },
+      "paper-warm": {
+        "role": "neutral",
+        "displayName": "Warm Card Stock",
+        "canonical": "#f4ecdb",
+        "tonalRamp": ["oklch(15% 0.012 90)", "oklch(27% 0.016 90)", "oklch(39% 0.02 90)", "oklch(51% 0.022 90)", "oklch(63% 0.024 90)", "oklch(75% 0.024 90)", "oklch(87% 0.022 90)", "oklch(96% 0.018 90)"]
+      },
+      "ink-iron": {
+        "role": "neutral",
+        "displayName": "Iron Ink",
+        "canonical": "#3d3327",
+        "tonalRamp": ["oklch(15% 0.018 90)", "oklch(24% 0.02 90)", "oklch(33% 0.022 90)", "oklch(45% 0.022 90)", "oklch(57% 0.02 90)", "oklch(69% 0.018 90)", "oklch(82% 0.014 90)", "oklch(95% 0.008 90)"]
+      },
+      "ink-airmail": {
+        "role": "tertiary",
+        "displayName": "Air-Mail Blue",
+        "canonical": "#2b4a8e",
+        "tonalRamp": ["oklch(15% 0.05 262)", "oklch(25% 0.08 262)", "oklch(35% 0.1 262)", "oklch(44% 0.12 262)", "oklch(56% 0.11 262)", "oklch(68% 0.09 262)", "oklch(81% 0.06 262)", "oklch(94% 0.02 262)"]
+      },
+      "ink-fine": {
+        "role": "neutral",
+        "displayName": "Fine Print",
+        "canonical": "#6b5f49",
+        "tonalRamp": ["oklch(15% 0.02 88)", "oklch(26% 0.025 88)", "oklch(37% 0.03 88)", "oklch(48% 0.032 88)", "oklch(60% 0.03 88)", "oklch(72% 0.026 88)", "oklch(84% 0.02 88)", "oklch(95% 0.012 88)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Badge Display", "purpose": "The THE DIAL badge only; 24px on mobile." },
+      "headline": { "displayName": "Room Headline", "purpose": "Surface headings — the shack's STATION SHACK and the primer's OPERATOR'S PRIMER; uppercase, 0.22em; 16px at <=820px in both rooms. The paper masthead's display cut is silk 700 clamp(18px, 2.6vw, 26px) at 0.12em in Iron Ink." },
+      "label": { "displayName": "Silkscreen Label", "purpose": "All panel captions; always uppercase. Dim variant is weight 500 in silk-dim; plate headings widen to 0.22em at 700. Award plates use silk's finest cut: names 700/10.5px/0.1em, rules 500/10.5px/0.08em." },
+      "body": { "displayName": "Teleprinter Copy", "purpose": "Received copy and the message input, in amber-hot behind glass." },
+      "print-body": { "displayName": "Print Body", "purpose": "The primer's typewritten prose — Log Ink on paper, sentence case, 72ch measure, 1.7 line-height (paper is read, not monitored). Base cut of the print fine-type register: 13.5px log lines, 13px table data, 12.5px reference text, 12px madder margin notes — each step owns one role; canonized as built." },
+      "meta": { "displayName": "QSO Meta", "purpose": "Time/callsign/grid/RST rows in amber-meta; callsigns bold 700 in amber. Beacon and filed lines sit near this role at 12.5px." },
+      "readout": { "displayName": "Machine Readout", "purpose": "Frequency counter and station-plate callsign (15px), the base of the machined register scale 15/20/26." },
+      "drum": { "displayName": "Drum Register", "purpose": "The shack's mechanical drum counter digits — Courier 700 20px in amber-hot on glass." },
+      "big-call": { "displayName": "Shack Big Call", "purpose": "The shack station plate's callsign — Courier 700 26px at 0.12em, engraved on aluminum. The permanent room earns the largest register." }
+    },
+    "shadows": [
+      { "name": "chassis-sit", "value": "0 30px 60px -18px rgba(0,0,0,0.85), 0 8px 18px rgba(0,0,0,0.6)", "purpose": "The rig resting in the dark room." },
+      { "name": "chassis-spill-powered", "value": "0 0 110px 6px rgba(255,164,72,0.06), 0 46px 150px -12px rgba(255,150,60,0.1)", "purpose": "Added lamp spill into the room when powered; 1.4s ease-out." },
+      { "name": "shack-lamp-pool", "value": "radial-gradient(90% 70% at 50% 34%, rgba(255,164,72,0.075), transparent 62%)", "purpose": "The always-on overhead lamp washing the paper-side rooms' grounds — the permanent rooms' counterpart to the powered spill (a background layer, not a box-shadow). The primer's reading room carries the same pool sized to its page: 85% 60% at 50% 30%, same color stops." },
+      { "name": "card-in-hand", "value": "0 24px 50px -12px rgba(0,0,0,0.85), 0 4px 12px rgba(0,0,0,0.5)", "purpose": "The QSL card lifted out of the rotary file and the primer's manual sheet — the floating shadow reserved for paper, and for nothing else." },
+      { "name": "index-card-sit", "value": "0 8px 22px -6px rgba(0,0,0,0.55)", "purpose": "The glossary index card resting on the manual sheet — paper on paper throws shallower than paper in air." },
+      { "name": "glass-recess", "value": "inset 0 3px 10px rgba(0,0,0,0.85), inset 0 0 0 1px rgba(0,0,0,0.7), 0 1px 0 var(--bevel-light)", "purpose": "Every backlit glass window carved into the panel." },
+      { "name": "knob-standoff", "value": "0 5px 12px rgba(0,0,0,0.65), inset 0 1px 1px rgba(255,255,255,0.1), inset 0 -2px 6px rgba(0,0,0,0.6)", "purpose": "Rotary hardware standing off the faceplate." },
+      { "name": "flip-knob-skirt", "value": "0 6px 14px rgba(0,0,0,0.7), 0 0 0 4px #17181b, 0 0 0 6px #494b52, 0 0 0 7px #101114, inset 0 2px 2px rgba(255,255,255,0.12), inset 0 -3px 8px rgba(0,0,0,0.65)", "purpose": "The shack flip knob's machined chrome skirt — the VFO's stacked-ring family at 96px." },
+      { "name": "lamp-glow-amber", "value": "0 0 8px 1px rgba(255,180,92,0.55)", "purpose": "A lit amber lamp's tight halo; never larger than 8px blur." },
+      { "name": "lamp-glow-red", "value": "0 0 8px 1px rgba(224,80,58,0.55)", "purpose": "A lit red lamp's halo (ON AIR, ESTIMATE)." },
+      { "name": "deck-recess", "value": "0 1px 0 rgba(255,255,255,0.04), inset 0 0 0 1px rgba(0,0,0,0.35)", "purpose": "The three recessed equipment bays; the same kit renders unearned award plates as dead metal." }
+    ],
+    "motion": [
+      { "name": "toggle-throw", "value": "transform 0.16s cubic-bezier(0.19, 1, 0.22, 1)", "purpose": "The power bat's 20px throw — the mechanical snap curve." },
+      { "name": "warmup-lamp", "value": "0.5s ease-out", "purpose": "Lamp background and glow warming in." },
+      { "name": "warmup-glass", "value": "0.9s ease-out", "purpose": "Glass backlight, frequency counter, and meter wash fading in with power." },
+      { "name": "warmup-room", "value": "1.4s ease-out", "purpose": "Chassis box-shadow spill pooling into the room; matches the 1.4s audio gain ramp." },
+      { "name": "needle-spring", "value": "accel 0.16, damping 0.78 per frame (JS)", "purpose": "Meter needle spring physics; ambient kicks decay at 0.94/frame." },
+      { "name": "flywheel-friction", "value": "velocity x 0.955 per frame (JS)", "purpose": "VFO coasting after release; 12 kHz per full turn." },
+      { "name": "flip-knob-detent", "value": "42deg per card (JS style.transform)", "purpose": "The shack flip knob's detents — drag, wheel, and arrow keys all turn the pointer; no free spin." },
+      { "name": "drum-detent", "value": "transform 0.45s cubic-bezier(0.19, 1, 0.22, 1)", "purpose": "The drum counter's digit strips rolling one detent; stops under reduced motion." },
+      { "name": "card-flip", "value": "0.5s cubic-bezier(0.19, 1, 0.22, 1) from rotateX(-58deg) translateY(26px), origin 50% 100%, perspective 1100px", "purpose": "The QSL card swinging up out of the file — the world's single authored entrance; collapses under reduced motion. Protected." },
+      { "name": "copy-fade", "value": "hold 45s, linear fade to gone at 75s (JS opacity)", "purpose": "Received traffic cooling out of the glass; never recorded. The dashed QSL request slip is operational state and outlives it." }
+    ],
+    "breakpoints": [
+      { "name": "two-bay", "value": "1080px" },
+      { "name": "full-bleed", "value": "820px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Push Button",
+      "kind": "button",
+      "refersTo": "push-button",
+      "description": "Machined panel push button (XMIT / CQ); travels 1px down when pressed, never lifts.",
+      "html": "<button class=\"ds-push-btn\">XMIT</button>",
+      "css": ".ds-push-btn { border: 0; border-radius: 5px; padding: 10px 16px; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 700; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--silk, #efe8d8); background: linear-gradient(180deg, #34363c, #1e2024); border-top: 1px solid var(--bevel-light, rgba(255,255,255,0.07)); box-shadow: 0 3px 6px rgba(0,0,0,0.55), inset 0 -2px 4px rgba(0,0,0,0.4); cursor: pointer; } .ds-push-btn:hover:not(:disabled) { background: linear-gradient(180deg, #3a3d43, #24262b); } .ds-push-btn:active:not(:disabled) { transform: translateY(1px); box-shadow: 0 1px 2px rgba(0,0,0,0.55), inset 0 2px 4px rgba(0,0,0,0.5); } .ds-push-btn:focus-visible { outline: 2px solid var(--amber, #ffb45c); outline-offset: 2px; } .ds-push-btn:disabled { color: var(--silk-dim, #b8b09c); cursor: not-allowed; opacity: 0.55; }"
+    },
+    {
+      "name": "Power Toggle",
+      "kind": "custom",
+      "refersTo": "toggle",
+      "description": "Bat-handle power switch; the audio-unlock gesture. Bat throws 20px in 0.16s.",
+      "html": "<button class=\"ds-toggle\" role=\"switch\" aria-checked=\"true\" aria-label=\"Power\"><span class=\"ds-toggle-bat\"></span></button>",
+      "css": ".ds-toggle { appearance: none; border: 0; padding: 0; width: 46px; height: 26px; border-radius: 13px; background: linear-gradient(180deg, #101114, #1e2024); box-shadow: inset 0 2px 5px rgba(0,0,0,0.8), 0 1px 0 var(--bevel-light, rgba(255,255,255,0.07)); position: relative; cursor: pointer; } .ds-toggle-bat { position: absolute; top: 3px; left: 3px; width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #d8d5c8, #8f8c7d 60%, #5d5a4e); box-shadow: 0 2px 4px rgba(0,0,0,0.6); transition: transform 0.16s cubic-bezier(0.19, 1, 0.22, 1); } .ds-toggle[aria-checked='true'] .ds-toggle-bat { transform: translateX(20px); } .ds-toggle:focus-visible { outline: 2px solid var(--amber, #ffb45c); outline-offset: 2px; }"
+    },
+    {
+      "name": "Indicator Lamps",
+      "kind": "custom",
+      "refersTo": "lamp",
+      "description": "10px panel lamps: dead metal when dark; domed amber (or red) filament with a tight 8px halo when lit. Every lamp reports a true state.",
+      "html": "<span class=\"ds-lamp-row\"><span class=\"ds-lamp\"></span><span class=\"ds-lamp ds-on\"></span><span class=\"ds-lamp ds-red ds-on\"></span></span>",
+      "css": ".ds-lamp-row { display: inline-flex; gap: 10px; align-items: center; } .ds-lamp { width: 10px; height: 10px; border-radius: 50%; background: #37332a; box-shadow: inset 0 1px 2px rgba(0,0,0,0.8); transition: background 0.5s ease-out, box-shadow 0.5s ease-out; } .ds-lamp.ds-on { background: radial-gradient(circle at 35% 30%, var(--amber-hot, #ffd9a3), var(--amber, #ffb45c) 55%, var(--amber-deep, #c97b1f)); box-shadow: 0 0 8px 1px rgba(255,180,92,0.55); } .ds-lamp.ds-red.ds-on { background: radial-gradient(circle at 35% 30%, #ffb3a3, var(--lamp-red, #e0503a) 55%, #8e2a1c); box-shadow: 0 0 8px 1px rgba(224,80,58,0.55); }"
+    },
+    {
+      "name": "Silkscreen Label",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Factory-painted panel caption; uppercase, letter-spaced. Dim variant for secondary captions.",
+      "html": "<span class=\"ds-silk-label\">Received Traffic</span> <span class=\"ds-silk-label ds-dim\">AF Gain</span>",
+      "css": ".ds-silk-label { font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 600; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--silk, #efe8d8); } .ds-silk-label.ds-dim { color: var(--silk-dim, #b8b09c); font-weight: 500; }"
+    },
+    {
+      "name": "Traffic Glass",
+      "kind": "card",
+      "refersTo": "glass-window-powered",
+      "description": "Backlit glass window carrying a received QSO: meta row in amber-meta with a bold callsign and QSL chip, copy in hot filament.",
+      "html": "<div class=\"ds-glass\"><div class=\"ds-qso\"><div class=\"ds-qso-meta\"><span>09:30Z</span> <span class=\"ds-qso-cs\">RA1XI</span> <span>KO85</span> <span>RS 47</span></div><div class=\"ds-qso-copy\">CQ CQ CQ ~E RA#XI RAXIK</div></div></div>",
+      "css": ".ds-glass { border-radius: 5px; background: var(--glass, #17100a); box-shadow: inset 0 3px 10px rgba(0,0,0,0.85), inset 0 0 0 1px rgba(0,0,0,0.7), 0 1px 0 var(--bevel-light, rgba(255,255,255,0.07)); padding: 10px 12px; min-width: 240px; } .ds-qso { font-family: var(--f-tty, 'Courier Prime', monospace); } .ds-qso-meta { font-size: 10.5px; letter-spacing: 0.1em; color: var(--amber-meta, #d99f56); display: flex; gap: 8px; } .ds-qso-cs { font-weight: 700; color: var(--amber, #ffb45c); } .ds-qso-copy { margin-top: 2px; font-size: 14px; line-height: 1.45; color: var(--amber-hot, #ffd9a3); }"
+    },
+    {
+      "name": "Message Key Input",
+      "kind": "input",
+      "refersTo": "message-input",
+      "description": "Transparent teleprinter input inside its own glass window; focus lights a 1px ember ring on the window, not the input.",
+      "html": "<div class=\"ds-key-glass\"><input class=\"ds-msg-input\" type=\"text\" placeholder=\"KEY YOUR MESSAGE…\" aria-label=\"Message to transmit\" /></div>",
+      "css": ".ds-key-glass { display: flex; border-radius: 5px; background: var(--glass, #17100a); box-shadow: inset 0 3px 10px rgba(0,0,0,0.85), inset 0 0 0 1px rgba(0,0,0,0.7), 0 1px 0 var(--bevel-light, rgba(255,255,255,0.07)); min-width: 240px; } .ds-key-glass:focus-within { box-shadow: inset 0 3px 10px rgba(0,0,0,0.85), inset 0 0 0 1px var(--amber-deep, #c97b1f), 0 1px 0 var(--bevel-light, rgba(255,255,255,0.07)); } .ds-msg-input { flex: 1; min-width: 0; border: 0; background: transparent; padding: 9px 12px; font-family: var(--f-tty, 'Courier Prime', monospace); font-size: 14px; color: var(--amber-hot, #ffd9a3); caret-color: var(--amber, #ffb45c); } .ds-msg-input::placeholder { color: rgba(224, 170, 100, 0.8); } .ds-msg-input:focus { outline: none; }"
+    },
+    {
+      "name": "Rotary Knob",
+      "kind": "custom",
+      "refersTo": "deck",
+      "description": "Domed panel knob with knurled rim and silkscreen pointer line; drag vertically or scroll to adjust. The shack's 96px flip knob is this family with the VFO's chrome skirt, amber pointer, and 42-degree detents.",
+      "html": "<button class=\"ds-knob\" role=\"slider\" aria-label=\"AF Gain\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"70\"><span class=\"ds-knob-pointer\"></span></button>",
+      "css": ".ds-knob { border: 0; padding: 0; width: 62px; height: 62px; border-radius: 50%; background: radial-gradient(circle at 38% 32%, #34363c, #212227 55%, #131417 100%); box-shadow: 0 5px 12px rgba(0,0,0,0.65), inset 0 1px 1px rgba(255,255,255,0.1), inset 0 -2px 6px rgba(0,0,0,0.6); position: relative; cursor: grab; } .ds-knob:active { cursor: grabbing; } .ds-knob-pointer { position: absolute; left: 50%; top: 7%; width: 3px; height: 26%; margin-left: -1.5px; border-radius: 2px; background: var(--silk, #efe8d8); transform-origin: 50% 165%; transform: rotate(54deg); } .ds-knob::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: repeating-conic-gradient(rgba(255,255,255,0.05) 0deg 3deg, transparent 3deg 8deg); -webkit-mask: radial-gradient(circle, transparent 82%, #000 84%); mask: radial-gradient(circle, transparent 82%, #000 84%); pointer-events: none; } .ds-knob:focus-visible { outline: 2px solid var(--amber, #ffb45c); outline-offset: 2px; }"
+    },
+    {
+      "name": "Riveted Plate",
+      "kind": "custom",
+      "refersTo": "plate",
+      "description": "Aluminum data plate with four domed rivets and engraved lettering; printed metal, never glows. The shack station plate widens the padding and carries a 26px big-call.",
+      "html": "<div class=\"ds-plate\"><span class=\"ds-rivet ds-tl\"></span><span class=\"ds-rivet ds-tr\"></span><span class=\"ds-rivet ds-bl\"></span><span class=\"ds-rivet ds-br\"></span><h2 class=\"ds-plate-h\">Station</h2><p class=\"ds-plate-cs\">EA8UN</p><p class=\"ds-plate-sub\">GRID IN80 · ON THE AIR</p></div>",
+      "css": ".ds-plate { position: relative; border-radius: 4px; padding: 10px 30px; background: linear-gradient(180deg, rgba(255,255,255,0.16), rgba(0,0,0,0.1)), linear-gradient(180deg, var(--alum, #a9a698), var(--alum-lo, #85826f)); color: var(--engrave, #2b2822); box-shadow: 0 2px 5px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.35); display: inline-block; } .ds-plate-h { margin: 0 0 3px; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-size: 11px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; } .ds-plate-cs { margin: 0; font-family: var(--f-tty, 'Courier Prime', monospace); font-weight: 700; font-size: 15px; letter-spacing: 0.1em; } .ds-plate-sub { margin: 0; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 500; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; } .ds-rivet { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #cfccbd, #8f8c7d 60%, #55523f); box-shadow: 0 1px 2px rgba(0,0,0,0.5); } .ds-rivet.ds-tl { top: 7px; left: 9px; } .ds-rivet.ds-tr { top: 7px; right: 9px; } .ds-rivet.ds-bl { bottom: 7px; left: 9px; } .ds-rivet.ds-br { bottom: 7px; right: 9px; }"
+    },
+    {
+      "name": "Award Plates",
+      "kind": "custom",
+      "refersTo": "award-plate",
+      "description": "Shack trophy plates: unearned is dead deck-finish metal with a dark 7px lamp; earned takes the riveted-plate aluminum with engraved text and a lit lamp. The Powered Gate translated to trophies.",
+      "html": "<div class=\"ds-award-row\"><div class=\"ds-award\"><span class=\"ds-award-lamp\"></span><span class=\"ds-award-name\">Storm Rider</span><span class=\"ds-award-rule\">A contact made at K 5 or worse</span></div><div class=\"ds-award ds-earned\"><span class=\"ds-award-lamp ds-on\"></span><span class=\"ds-award-name\">DX Hound</span><span class=\"ds-award-rule\">A confirmed path over 5,000 km</span></div></div>",
+      "css": ".ds-award-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; min-width: 300px; } .ds-award { position: relative; border-radius: 4px; padding: 9px 10px 8px; display: flex; flex-direction: column; gap: 3px; background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.16)); border-top: 1px solid var(--bevel-light, rgba(255,255,255,0.07)); box-shadow: inset 0 0 0 1px rgba(0,0,0,0.35); color: var(--silk-dim, #b8b09c); } .ds-award.ds-earned { background: linear-gradient(180deg, rgba(255,255,255,0.16), rgba(0,0,0,0.1)), linear-gradient(180deg, var(--alum, #a9a698), var(--alum-lo, #85826f)); color: var(--engrave, #2b2822); } .ds-award-lamp { position: absolute; top: 8px; right: 8px; width: 7px; height: 7px; border-radius: 50%; background: #37332a; box-shadow: inset 0 1px 2px rgba(0,0,0,0.8); } .ds-award-lamp.ds-on { background: radial-gradient(circle at 35% 30%, var(--amber-hot, #ffd9a3), var(--amber, #ffb45c) 55%, var(--amber-deep, #c97b1f)); box-shadow: 0 0 8px 1px rgba(255,180,92,0.55); } .ds-award-name { font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 700; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; } .ds-award-rule { font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 500; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.85; }"
+    },
+    {
+      "name": "QSL Chip",
+      "kind": "chip",
+      "refersTo": "qsl-chip",
+      "description": "Bordered amber chip on a QSO meta row requesting a card; .offered fills ember with near-black text once the request is out.",
+      "html": "<span class=\"ds-chip-row\"><button class=\"ds-qsl-chip\">QSL?</button><button class=\"ds-qsl-chip ds-offered\">QSL SENT</button></span>",
+      "css": ".ds-chip-row { display: inline-flex; gap: 8px; align-items: center; } .ds-qsl-chip { border: 1px solid var(--amber-deep, #c97b1f); border-radius: 3px; background: transparent; padding: 1px 7px; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 600; font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber-meta, #d99f56); cursor: pointer; } .ds-qsl-chip:hover:not(:disabled) { background: rgba(201, 123, 31, 0.18); color: var(--amber, #ffb45c); } .ds-qsl-chip:focus-visible { outline: 2px solid var(--amber, #ffb45c); outline-offset: 2px; } .ds-qsl-chip.ds-offered { background: var(--amber-deep, #c97b1f); color: #140d04; font-weight: 700; }"
+    },
+    {
+      "name": "Drum Counter",
+      "kind": "custom",
+      "refersTo": "drum-counter",
+      "description": "The shack's mechanical card register: rolling 0-9 digit strips behind a recessed glass chip, easing 0.45s per detent on the snap curve.",
+      "html": "<div class=\"ds-drum\" role=\"status\" aria-label=\"Card 7 of 12\"><span class=\"ds-drum-win\"><span class=\"ds-drum-strip\">0</span></span><span class=\"ds-drum-win\"><span class=\"ds-drum-strip\">7</span></span><span class=\"ds-drum-sep\">∕</span><span class=\"ds-drum-win\"><span class=\"ds-drum-strip\">1</span></span><span class=\"ds-drum-win\"><span class=\"ds-drum-strip\">2</span></span></div>",
+      "css": ".ds-drum { display: inline-flex; align-items: center; gap: 3px; padding: 6px 10px; border-radius: 4px; background: var(--glass, #17100a); box-shadow: inset 0 3px 8px rgba(0,0,0,0.85), 0 1px 0 var(--bevel-light, rgba(255,255,255,0.07)); font-family: var(--f-tty, 'Courier Prime', monospace); font-weight: 700; font-size: 20px; color: var(--amber-hot, #ffd9a3); } .ds-drum-sep { color: var(--amber-deep, #c97b1f); margin: 0 4px; } .ds-drum-win { display: inline-block; height: 1em; overflow: hidden; line-height: 1; } .ds-drum-strip { display: flex; flex-direction: column; transition: transform 0.45s cubic-bezier(0.19, 1, 0.22, 1); } .ds-drum-strip { height: 1em; line-height: 1; }"
+    },
+    {
+      "name": "Primer Paper",
+      "kind": "custom",
+      "refersTo": "paper-sheet",
+      "description": "The band post's printed manual sheet: double-rule masthead with a rotated rubber stamp, sentence-case typewritten prose with typewriter-underline emphasis, and a madder margin annotation. The Paper Read Register in one tile; ink never glows.",
+      "html": "<article class=\"ds-paper\"><div class=\"ds-paper-mast\"><div><p class=\"ds-paper-kicker\">THE DIAL · MODEL TD-40</p><h2 class=\"ds-paper-title\">OPERATOR'S PRIMER</h2></div><p class=\"ds-paper-stamp\">READ BEFORE<br />KEYING</p></div><p class=\"ds-paper-body\">Whoever is tuned to your frequency <em>right now</em> hears you. Nobody else ever will.</p><p class=\"ds-margin-note\">A CQ is \"anyone out there?\" — K hands you the mic.</p></article>",
+      "css": ".ds-paper { background: linear-gradient(168deg, rgba(255,255,255,0.35), transparent 40%), linear-gradient(348deg, rgba(138,122,92,0.16), transparent 55%), #f2e9d4; border-radius: 4px; padding: 22px 24px; color: #2b2419; box-shadow: 0 24px 50px -12px rgba(0,0,0,0.85), 0 4px 12px rgba(0,0,0,0.5); max-width: 380px; } .ds-paper ::selection { background: #b13527; color: #f2e9d4; } .ds-paper-mast { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; border-bottom: 3px double #3d3327; padding-bottom: 12px; margin-bottom: 14px; } .ds-paper-kicker { margin: 0 0 5px; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 600; font-size: 10.5px; letter-spacing: 0.22em; color: #6b5f49; } .ds-paper-title { margin: 0; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 700; font-size: 18px; letter-spacing: 0.12em; color: #3d3327; } .ds-paper-stamp { flex: 0 0 auto; margin: 0; padding: 6px 10px; border: 2.5px solid #b13527; border-radius: 3px; font-family: var(--f-silk, 'Barlow Semi Condensed', sans-serif); font-weight: 700; font-size: 11px; letter-spacing: 0.18em; line-height: 1.5; color: #b13527; text-align: center; transform: rotate(-4deg); opacity: 0.85; } .ds-paper-body { margin: 0 0 10px; font-family: var(--f-tty, 'Courier Prime', monospace); font-size: 14px; line-height: 1.7; } .ds-paper-body em { font-style: normal; text-decoration: underline; text-underline-offset: 3px; } .ds-margin-note { margin: 0; font-family: var(--f-tty, 'Courier Prime', monospace); font-size: 12px; line-height: 1.6; color: #b13527; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Amber Shack Rig",
+    "overview": "The band is an instrument you operate. The product's main surface is one 1970s Japanese ham rig — brushed charcoal aluminum faceplate, walnut end-cheeks, visible screws and riveted plates — filling the viewport of a nearly black room. It deliberately refuses the dark-dashboard chat idiom: no sidebar, no scrollback, no page chrome. Every interface element is a piece of panel hardware (a lamp, a knob, a meter, a backlit glass window), and every piece of hardware reports a true state.\n\nThe world now has three rooms and two materials. The rig at / is lamp-lit metal: there is exactly one light source — the lamps — and all glow in the system (indicator lamps, backlit dial glass, the amber waterfall, the frequency counter, the meter wash, the powered rig's room spill) is lamp light that does not exist until POWER is flipped. The Station Shack at /shack/:callsign — \"The Rolodex\" — is the world's permanent place: a rotary card file under an always-lit overhead lamp, holding the QSL cards a station has earned. The card is printed paper, the world's second material: cream stock and printed ink that never glows, distinct from panel chroma in every way. The Operator's Primer at /manual — \"The Logbook Primer\" — is the paper side's reading room: one typewritten manual sheet from the band post under the same overhead lamp, the world's only Read-mode surface, where comprehension leads and the paper carries the charm. Everything on the air stays ephemeral; the card is the only paper the band ever mints for a station — the primer is factory-printed matter, the one sheet the band post printed for everyone.\n\nColor follows the same physics on both sides: chromatic color on metal is either amber filament light or signal red; everything else is near-neutral metal, cream paint, and dark glass. On paper, color is ink — madder red, air-mail blue, iron — stamped, never lit. Density is instrument-grade: 11px silkscreen captions, hardware clusters packed at 7px gaps, a giant flywheel VFO as the centerpiece. Motion is mechanical, not decorative — sprung meter needles, flywheel inertia, slow warm-up eases, a 60-second cooling fade on received copy, detented flips on the shack's rotary file — and there are no scattered hover effects anywhere.\n\nSurfaces on record (all code-led picks): the rig — client/index.html, seed dial5eed (FORM block in the file itself); the Station Shack — client/src/shack/Shack.jsx + shack.css + QslCard.jsx, structure \"The Rolodex\", seed shack5eed; the Operator's Primer — client/src/manual/Manual.jsx + manual.css + FaceplateFigure.jsx, structure \"The Logbook Primer\", seed guide5eed (Read mode).",
+    "keyCharacteristics": [
+      "One machine fills the viewport; the room around it is nearly black.",
+      "One light source: amber lamp light is the only glow, and on the rig only when powered.",
+      "Two materials: lamp-lit metal and printed paper. Ink never glows; metal never reads as paper.",
+      "Visible construction: corner screws, riveted plates, seamed decks, knurled knobs, rolling drum digits.",
+      "Honest signal states: measured (NOAA LIVE lamp), estimated (red ESTIMATE lamp), and unreadable copy each read distinctly; unearned awards are dead metal.",
+      "Everything on the air is ephemeral: received copy holds ~45s and is gone by 75s. The QSL card is the world's single permanent artifact — mutually confirmed contacts mint paper in the shack, forever."
+    ],
+    "rules": [
+      { "name": "The One Filament Rule", "body": "Every luminous color is lamp light. The amber family and signal red appear only where a filament, backlit glass, or its physical spill would put them — never as decoration, never on unpowered hardware. Paint (silkscreen, engraving, meter ink, card ink) never glows.", "section": "colors" },
+      { "name": "The Powered Gate Rule", "body": "Light exists only when it is earned by a real state. On the rig, the .powered class on the root gates every glow — lamp states, glass backlight, the counter, the meter wash, the room spill — and the unpowered rig must render as convincingly dead metal. In the shack, the permanent room, the overhead lamp is always on, and the gate translates to trophies: an earned award is lit aluminum with a lit lamp; an unearned award is dead metal with a dark lamp.", "section": "colors" },
+      { "name": "The Paper-Ink Rule", "body": "Everything on paper is printed ink: it never glows, never casts a colored halo, and takes nothing from the lamp families. Air-mail blue exists only on paper — the no-cool-hues law still governs every lamp-lit metal surface. The STORM overprint at K≥5 is ink stamped on the card, never light.", "section": "colors" },
+      { "name": "The Silk-and-Teleprinter Rule", "body": "Barlow Semi Condensed is what the factory printed: labels, captions, plate headings, button lettering, card headers and stamps. Courier Prime is what the machine produces: received copy, readouts, callsigns, grids, system notes, the card's log line, the primer's typewritten pages. Data wears mono; labels wear silk. No third face exists — on metal or on paper.", "section": "typography" },
+      { "name": "The All-Caps Panel Rule", "body": "Everything printed on the panel or surfaced through glass is uppercase and letter-spaced (minimum 0.04em, typically 0.1–0.14em). Its scope is silkscreen on metal and glass: sentence case does not appear anywhere on the rig or the shack's hardware. Paper documents answer to the Paper Read Register instead.", "section": "typography" },
+      { "name": "The Paper Read Register", "body": "Sentence-case typewritten body prose is legal on paper documents — the primer reads in Log Ink at 14px/1.7 across a 72ch measure, because a Read-mode page is won by comprehension, not silkscreen discipline (the adaptation was accepted at the primer's finish review on exactly that ground). Silk stays all-caps everywhere it appears, paper included: mastheads, §-section titles, glossary terms, table headers, stamps, footers. §-numbered sections (§1–§6) are the manual's cross-reference machinery — earned by a document that refers to itself, not decoration for other surfaces.", "section": "typography" },
+      { "name": "The Typewriter Emphasis Rule", "body": "Emphasis on paper is a typewriter underline (text-decoration: underline, 3px offset, font-style: normal), never a synthetic oblique — a typewriter cannot slant, and a faked italic would break the material. Strong stays bold, the double-struck word. There is no italic anywhere in the world.", "section": "typography" },
+      { "name": "The SVG Type Rule", "body": "Type inside SVG artifacts is set through CSS classes — .qf-silk/.qf-tty on the card's faces (styled in shack.css) and again on FIG. 1's numerals and witness line (styled in manual.css) — never through SVG font-family presentation attributes, which silently fall back to the default serif. A serif QSL card is a broken QSL card.", "section": "typography" },
+      { "name": "The One Machine Rule", "body": "A surface is one thing in a dark room. On the rig, the machine is the page: no element renders outside the chassis, and no headers, footers, or floating UI exist in the room around it. In the shack, the file, its hardware, and the plates stand directly in the lamp pool — still no page chrome, no card-grid-plus-sidebar layout, nothing that is not hardware or paper. In the primer, the one thing is a sheet of paper; the chartered back-link header is the only other object in the room.", "section": "layout" },
+      { "name": "The Carved-Not-Cast Rule", "body": "Nothing floats and nothing lifts. Recessed things get inset shadows; raised things get a standoff shadow plus a 1px top bevel. Interaction never adds elevation — the push button travels 1px down when pressed. Paper is the sole exception: the QSL card and the primer sheet float under the card-in-hand shadow because paper is held, not bolted; hardware never borrows that shadow.", "section": "elevation" },
+      { "name": "The Warm-Up Rule", "body": "State changes ease like heat. Lamps take 0.5s, glass and counters 0.9s, the room spill 1.4s, all ease-out; audio ramps over 1.4s. Only mechanical detents snap: the toggle bat (0.16s), the drum counter's roll (0.45s), and the card flip out of the file (0.5s) all ride cubic-bezier(0.19, 1, 0.22, 1). Heat eases; mechanisms snap. All of these transitions collapse under prefers-reduced-motion: reduce.", "section": "components" },
+      { "name": "The No-Re-render Rule", "body": "Continuous motion (VFO rotation, flip-knob detents, needle springs, canvas scale/waterfall, the counter) is driven imperatively in requestAnimationFrame loops or direct style.transform writes reading refs — React renders only on discrete state changes (power, messages, link status, the current card index).", "section": "components" }
+    ],
+    "dos": [
+      "Do gate every glow behind a true state: the .powered root class on the rig, the earned flag on award plates — light does not exist on a dead rig or an unearned trophy.",
+      "Do build new hardware from the carving kit: inset black shadows for recessed parts, standoff shadow plus 1px bevel-light top edge for raised parts, domed radial gradients (highlight at ~35%/30%) for anything turned or riveted.",
+      "Do keep lamp glows tight: 8px blur, 1px spread, 0.55 alpha of the lamp's own color — a halo, not a bloom.",
+      "Do set all metal-and-glass text uppercase and letter-spaced: silkscreen at 0.14em (0.22em on plate headings and room headlines), teleprinter at 0.04–0.1em. On paper documents, typewritten body prose reads in sentence case (The Paper Read Register); silk stays uppercase everywhere.",
+      "Do keep signal provenance visibly honest: NOAA LIVE gets the amber lamp, ESTIMATE gets the red lamp, own transmissions carry the red TX prefix, beacons print dim, and unreadable copy stays garbled.",
+      "Do keep the QSL card exactly as restrained as it shipped: cream stock, one huge ink callsign, a real airmail border, a non-glowing STORM overprint, and exactly one authored moment — the card flip. This is the v1.5 finish review's protected keep-line.",
+      "Do keep the primer exactly as reviewed: the madder margin annotations on the worked log, FIG. 1's one-ink patent restraint, and the sentence-case typewritten register are the page's comprehension engine — the primer finish review's protected keep-line.",
+      "Do set SVG type via CSS classes (.qf-silk/.qf-tty), never SVG font-family presentation attributes.",
+      "Do use correct ham vocabulary everywhere copy appears (CQ, QSO, QSL, RST, QSB, 73, grid squares) — fidelity is the respect that makes hams smile."
+    ],
+    "donts": [
+      "Don't introduce cool or saturated hues on the metal side. The only chroma on lamp-lit surfaces is amber light and signal red; metals stay near-neutral, paint stays cream. Air-mail blue (#2b4a8e) exists solely as printed ink on the QSL card's paper.",
+      "Don't add hover motion — no lifts, scales, or glows on pointer-over. The push button's one-step gradient shift, the QSL chip's fill, and 1px press travel are the entire hover/active vocabulary.",
+      "Don't let amber act as paint. Silkscreen lettering is cream (#efe8d8) or dim cream; amber is reserved for light through glass and lit filaments. And don't let ink act as light: nothing printed on paper ever glows.",
+      "Don't persist or extend history on the air. Copy holds 45s and is gone by 75s; never add scrollback, timestamps into the past, or any affordance that removes missing things. The QSL card is the sole sanctioned permanence — mutual confirmation mints paper in the shack — and the dashed request slip may outlive the fade only because it is operational state, not traffic.",
+      "Don't wire a lamp to nothing. Every indicator reports a true state — power, transmission, provenance, an earned award; decorative panel furniture (jacks, fixed selectors) must be static and honestly labeled as fixed.",
+      "Don't slant type. Emphasis on paper is the typewriter underline, never a synthetic oblique; there is no italic anywhere in the world, on either material.",
+      "Don't give a FIG-style figure a second ink. Patent figures are one-ink line geometry with paper-filled numeral bubbles; the madder witness line is the sole sanctioned exception. No fills, no shading, no color coding.",
+      "Don't exceed the machined radius scale: 3–6px on stamped rectangles and paper, 10px on the chassis, circles for hardware — nothing else."
+    ]
+  }
+}
