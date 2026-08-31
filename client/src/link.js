@@ -9,7 +9,10 @@ export function tokenKey() {
 }
 
 function wsUrl() {
-  const base = `${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.hostname}:8787/ws`;
+  // In dev the client is served by Vite on :5173 and the band lives on :8787;
+  // in production one process serves both, so ride the page's own host.
+  const host = location.port === '5173' ? `${location.hostname}:8787` : location.host;
+  const base = `${location.protocol === 'https:' ? 'wss' : 'ws'}://${host}/ws`;
   try {
     const token = localStorage.getItem(tokenKey());
     return token ? `${base}?token=${encodeURIComponent(token)}` : base;

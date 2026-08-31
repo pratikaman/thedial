@@ -1,0 +1,33 @@
+# The band is one process holding every live connection in memory, so it must
+# run as exactly ONE machine — two machines would be two separate bands whose
+# operators cannot hear each other. Never scale this app past one.
+
+app = "thedial"
+primary_region = "bom"
+
+[build]
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false   # beacons transmit around the clock
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [http_service.concurrency]
+    type = "connections"
+    hard_limit = 400
+    soft_limit = 300
+
+# QSL cards and station identities are the only durable data; without this
+# volume they reset on every deploy.
+[mounts]
+  source = "thedial_data"
+  destination = "/app/data"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
